@@ -1,0 +1,14 @@
+.venv/
+.chainlit/
+.data/
+.env
+*.txt
+*.docx
+*.json
+__pycache__/
+.pytest_cache/
+data/vector_store/
+data/test_vector_store/
+data/test_rag_store/
+pytest.ini
+chainlit.md
