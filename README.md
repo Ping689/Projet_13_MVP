@@ -16,10 +16,7 @@ Ce projet est la version **MVP** locale et robuste du chatbot RAG de Puls-Events
 
 ## Installation et préparation de l'environnement
 
-### Étape 1 - Cloner / Préparer le dossier du projet
-Assurer d'avoir Docker installé et actif sur notre machine.
-
-### Étape 2 - Créer et activer l'environnement virtuel
+### Étape 1 - Créer et activer l'environnement virtuel
 ```bash
 # Créer l'environnement virtuel
 python -m venv .venv
@@ -28,13 +25,13 @@ python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 ```
 
-### Étape 3 - Installer les dépendances
+### Étape 2 - Installer les dépendances
 ```bash
 # Installation des paquets requis
 python -m pip install -r requirements.txt
 ```
 
-### Étape 4 - Configuration des variables d'environnement (`.env`)
+### Étape 3 - Configuration des variables d'environnement (`.env`)
 Créer ou modifier le fichier `.env` à la racine du projet avec les clés suivantes :
 ```env
 MISTRAL_API_KEY=votre_cle_api_mistral
